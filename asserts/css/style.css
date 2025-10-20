@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.family {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+:root {
+    --primary-color: #ff9500;
+    --secondary-color: #df8303;
+    --tertiary-color: #ffeacc;
+    --forth-color: #f1f1f3;
+    --fifth-color: #f7f7f7c6;
+    --sixth-color: #f7f7f7;
+}
+
+body {
+    /* color: #bababe; */
+    background-color: var(--sixth-color);
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+header {
+    padding: 14px;
+}
+
+.header_top {
+    background-color: var(--primary-color);
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px !important;
+    border-radius: 4px;
+}
+
+.header_top p {
+    margin-bottom: 0 !important;
+}
+
+.navbar {
+    height: 60px;
+    padding: 0 !important;
+    /* width: 1400px; */
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-nav {
+    margin-top: 0 !important;
+}
+
+.nav-link {
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: black !important;
+    font-size: 14px !important;
+    padding: 10px 14px !important;
+    border-radius: 6px;
+    font-weight: 400;
+}
+
+.active {
+    background-color: #f1f1f3 !important;
+    padding: 10px 14px !important;
+}
+
+.nav-link:hover {
+    background-color: #f1f1f3;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, .55);
+    border: none !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../imgs/bars.png');
+}
+
+.btn {
+    padding: 10px 16px !important;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: -1px 14px 18px rgba(166, 209, 249, 0.28);
+}
+
+.btn_signup {
+    background-color: white;
+    transition: 1s;
+}
+
+.btn_signup:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: -1px 14px 18px rgba(0, 0, 0, 0.11);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.btn_login {
+    background-color: var(--primary-color);
+    color: white;
+    transition: 1s;
+
+}
+
+.btn_login:hover {
+    background-color: #df8303 !important;
+    color: white;
+    box-shadow: -1px 14px 18px rgba(0, 0, 0, 0.11);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* SECTION TWO */
+.container_main {
+    height: 350px;
+}
+
+.main_box {
+    /* height: 250px; */
+    gap: 3rem !important;
+}
+
+.heading_box {
+    background-color: white !important;
+    position: relative;
+    padding: 8px;
+    gap: 5px;
+}
+
+.float_icon {
+    position: absolute;
+    left: -16px;
+    top: -17px;
+}
+
+.float_icon img {
+    width: 25px;
+}
+
+
+.icon_box {
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4e6;
+    border-radius: 6px;
+}
+
+.icon_box i {
+    color: #1a1a1a;
+}
+
+.sub_box span {
+    color: #ff9500;
+    margin-right: 10px;
+}
+
+.sub_box h3 {
+    color: #1a1a1a;
+    margin: 0 !important;
+}
+
+.paraMax {
+    font-weight: 500;
+    font-size: 21px;
+    margin: 5px !important;
+}
+
+.paraMin {
+    font-size: 13px;
+    margin: 0 !important;
+}
+
+/* SECTION SPONSERS */
+.carousel {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.sponser_box {
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 23px;
+    background-color: white;
+    height: 80px;
+    position: relative;
+    /* padding: 0 !important; */
+    padding-right: 1rem !important;
+    animation: spin 10s linear infinite;
+}
+
+.sponser_img {
+    margin: 5px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.sponser_img img {
+    width: 55px;
+}
+
+.sponser_img:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: -17px;
+    height: 220%;
+    width: 1px;
+    background-color: #f1f1f3;
+}
+
+/* SECTION IMAGE */
+.container_img {
+    /* width: 100%; */
+    padding: 0 !important;
+}
+
+.container_img img {
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+}
+
+/* SECTION BENEFITS */
+.benefits_head {
+    width: 60%;
+}
+
+.benefit_content {
+    background-color: white;
+    min-height: 245px;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.numeric {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.benefit_icon_box {
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: var(--primary-color);
+    background-color: #f7f7f7;
+}
+
+.benefit_icon_box img {
+    width: 18px;
+}
+
+.btn_benefits {
+    background-color: #fcfcfc;
+}
+
+.btn_benefits a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+/* SECTION COURSES */
+.courses_content {
+    background-color: white;
+    /* min-height: 225px; */
+    padding: 25px 35px;
+    border-radius: 6px;
+}
+
+.courses_img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.courses_info div {
+    padding: 8px 12px;
+    border: 2px solid #f7f7f7;
+    border-radius: 6px;
+}
+
+.tutor_name p {
+    font-weight: 500;
+}
+
+.courses_button_box {
+    height: 35px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    color: var(--primary-color);
+    background-color: #f7f7f7;
+}
+
+.courses_button_box a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* SECTION TESTIMONIAL */
+.testimonial {
+    border-radius: 6px;
+}
+
+.testimonial_content {
+    background-color: white;
+    padding: 25px 35px;
+    /* border-radius: 6px; */
+}
+
+.testimonial_profile {
+    background-color: #fcfcfd;
+    padding: 25px 35px;
+    border-top: 2px solid #f7f7f7;
+
+}
+
+.profile_box img {
+    width: 45px;
+    margin-right: 8px;
+}
+
+.profile_box span {
+    font-weight: 500;
+}
+
+.profile_btn_box {
+    height: 50px;
+    padding: 0 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    transition: .7s;
+}
+
+.profile_btn_box:hover {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: -1px 14px 18px rgba(166, 209, 249, 0.28);
+}
+
+/* SECTION PRICING */
+.pricin_btn {
+    background-color: white;
+    padding: 16px 10px;
+    border-radius: 6px;
+}
+
+.pricin_btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_yearly a {
+    color: black;
+}
+
+.btn_yearly a:hover {
+    color: white;
+}
+
+.pricing_detail {
+    background-color: white;
+}
+
+.pricing_box {
+    background-color: #fcfcfd;
+    border-radius: 12px;
+}
+
+.pricing_plan {
+    background-color: #fff9f0;
+    border: 1px solid #ffeacc;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.rate span {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.plans_detail {
+    background-color: white;
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.plans-info {
+    border: 1px solid #f7f7f7;
+    /* min-width: 70%; */
+    padding: 4px;
+}
+
+.plans-info p {
+    color: #262627;
+    font-size: 12px;
+}
+
+.pricing_box_detail {
+    min-width: 100%;
+}
+
+.check_box {
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff4e6;
+    border-radius: 6px;
+}
+
+.cross {
+    background-color: #fcfcfd !important;
+}
+
+.check_box i {
+    color: #656567;
+    font-size: 10px;
+}
+
+
+
+.pricing_start {
+    height: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.pricing_start:hover {
+    background-color: #df8303 !important;
+}
+
+/* SECTION QUESTIONS */
+
+.question_container {
+    background-color: white;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    border: 2px solid #f7f7f7 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .125);
+}
+
+.accordion-button::after {
+    background-image: url('../imgs/Button\ _plus.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.accordion-button:not(.collapsed)::after {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgs/Button_cross.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-right: 0 !important;
+    /* top: -11px;
+    right: 7px; */
+}
+
+.accordion-header {
+    margin-bottom: 0;
+    width: 97% !important;
+}
+
+.accordion_item {
+    background-color: #f7f7f7;
+}
+
+.accordion_item p {
+    margin: 0 !important;
+}
+
+.right_box {
+    height: 25px;
+    width: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* SECTION FOOTER */
+footer {
+    background-color: white;
+}
+
+.footer_logo img {
+    margin: 15px 0px;
+}
+
+footer ul {
+    padding: 0 !important;
+}
+
+footer li {
+    list-style: none;
+    margin: 6px 0;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #656567;
+    font-size: 14px;
+}
+
+footer li a:hover{
+    color: #262627;
+}
+
+.footer_icon a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_icon a i {
+    font-size: 18px;
+    transition: 1s;
+    margin-right: 12px;
+}
+
+.footer_icon a i:hover {
+    color: var(--primary-color);
+}
+
+.footer-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #f7f7f7;
+    font-size: 18.5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.lastP {
+    color: #656567;
+}
+
+.footer-icon:hover {
+    color: var(--primary-color);
+}
+
+.text_color {
+    color: #656567;
+}
+
+/* ANIMATION SECTION */
+
+@keyframes spin {
+    from {
+        translate: 0;
+    }
+
+    to {
+        translate: -100%;
+    }
+}

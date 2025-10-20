@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnify</title>
+    <link rel="shortcut icon" href="imgs/fav_icon2.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="asserts/css/style.css">
+    <link rel="stylesheet" href="asserts/css/course.css">
+    <link rel="stylesheet" href="asserts/css/responsive.css">
+    <title>Learnify</title>
+    <link rel="icon" type="image/png" href="asserts/imgs/favicon.png">
+    <script src="https://kit.fontawesome.com/162aa951ca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- SECTION HEADER-->
+
+  <section>
+    <header>
+      <div class="header_top">
+        <p class="text-center">Free Courses 🌟 Sale Ends Soon, Get It Now
+          <span class="ms-3"><i class="fa-solid fa-arrow-right"></i></span>
+        </p>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid mx-4 align-items-center">
+          <!-- ✅ Left: Logo -->
+          <a class="navbar-brand me-5" href="#">
+            <img src="asserts/imgs/Logo.png" alt="logo">
+          </a>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-3 mb-2 mb-lg-0 mt-3">
+              <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/courses.html">Courses</a></li>
+              <li class="nav-item"><a class="nav-link" href="/about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="/price.html">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link active" href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+
+          <!-- ✅ Right: Buttons + Toggle -->
+          <div class="d-flex align-items-center gap-3 button_group ms-auto">
+            <a href="/signup.html">
+              <button class="btn btn_signup" type="button">Sign Up</button>
+            </a>
+            <a href="/login.html">
+              <button class="btn btn_login" type="button">Login</button>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <!-- <div class="d-flex gap-4 button_group">
+            <form class="d-flex gap-3">
+              <button class="btn btn_signup" type="submit">Sign Up</button>
+              <button class="btn btn_login" type="submit">Login</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div> -->
+        </div>
+      </nav>
+    </header>
+  </section>
+
+    <!-- SECTION TWO -->
+
+    <section>
+        <div class="container-md mb-4 about_padding">
+            <div class="container_courses d-flex justify-content-center align-items-center">
+                <div class="row courses_top_content justify-content-center align-items-center">
+                    <div class="col-lg-6">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Welcome to SkillBridge's Pricing Plan page, where we offer two comprehensive options to cater
+                            to your needs: Free and Pro. We believe in providing flexible and affordable pricing options
+                            for our services. Whether you're an individual looking to enhance your skills or a business
+                            seeking professional development solutions, we have a plan that suits you. Explore our
+                            pricing options below and choose the one that best fits your requirements.</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="vertical_line mb-5">
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT FORM -->
+
+    <section>
+        <div class="container px-4">
+            <div class="benefits_container my-4 p-1">
+                <div class="row my-3 pricing_detail p-5 justify-content-evenly">
+                    <div class="col-md-8 contact_form my-3">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label paraMin">Name</label>
+                                <input type="text" class="form-control" required placeholder="Enter First Name" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputPassword4" class="form-label paraMin">Name</label>
+                                <input type="text" class="form-control" required placeholder="Enter Last Name"
+                                    id="inputPassword4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" required class="form-label paraMin">Email</label>
+                                <input type="email" placeholder="Enter Your Email" class="form-control"
+                                    id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputNumber4" class="form-label paraMin">Number</label>
+                                <input type="text" required placeholder="Enter Your Phone Number" class="form-control"
+                                    id="inputPassword4">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label paraMin">Subject</label>
+                                <input type="text"  required class="form-control" id="inputSubject"
+                                    placeholder="Enter Your Subject">
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label paraMin">Message</label>
+                                <textarea class="form-control"  required placeholder="Enter Your Message Here..."
+                                    id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <button type="submit" class="btn btn_login">Send Your Message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 my-3">
+                        <div class="contact_detail_boxes d-flex flex-column align-items-end p-3">
+                            <div class="contact_box d-flex justify-content-center align-items-center my-2 text-center">
+                                <div
+                                    class="contact_box_icon d-flex justify-content-center align-items-center flex-column gap-2">
+                                    <div class="contact_icon_box d-flex">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <p class="paraMin text_color">hello@skillbridge.com</p>
+                                </div>
+                            </div>
+                            <div class="contact_box d-flex justify-content-center align-items-center my-2 text-center">
+                                <div
+                                    class="contact_box_icon d-flex justify-content-center align-items-center flex-column gap-2">
+                                    <div class="contact_icon_box d-flex">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <p class="paraMin text_color">+91 91813 23 2309</p>
+                                </div>
+                            </div>
+                            <div class="contact_box d-flex justify-content-center align-items-center my-2 text-center">
+                                <div
+                                    class="contact_box_icon d-flex justify-content-center align-items-center flex-column gap-2">
+                                    <div class="contact_icon_box d-flex">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <p class="paraMin text_color">Somewhere in the World</p>
+                                </div>
+                            </div>
+                            <div class="contact_box d-flex justify-content-center align-items-center my-2 text-center">
+                                <div
+                                    class="contact_box_icon d-flex justify-content-center align-items-center flex-column gap-2">
+                                    <div class="d-flex gap-2">
+                                        <div class="contact_icon_box d-flex">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </div>
+                                        <div class="contact_icon_box d-flex">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </div>
+                                        <div class="contact_icon_box d-flex">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                    </div>
+                                    <p class="paraMin text_color">Social Profiles</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- SECTION FOOTER -->
+
+  <footer>
+    <section>
+      <div class="container foot_container">
+        <div class="row pt-4">
+          <div class="col-md-5 footer_add">
+            <a class="footer_logo" href="#"><img src="asserts/imgs/Logo.png" alt="logo"></a>
+            <div class="my-2 footer_icon">
+              <a href=""><span><i class="fa-solid fa-envelope"></i></span>hello@skillbridge.com</a>
+            </div>
+            <div class="my-2 footer_icon">
+              <a href=""><span><i class="fa-solid fa-phone"></i></span>+91 91813 23 2309</a>
+            </div>
+            <div class="my-2 footer_icon">
+              <a href=""><span><i class="fa-solid fa-location-dot"></i></span>Somewhere in the World</a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-6">
+            <div class="my-4">
+              <h5>Home</h5>
+              <ul>
+                <li><a href="#">Benefits</a></li>
+                <li><a href="/courses.html">Our Courses</a></li>
+                <li><a href="#">Our Testimonials</a></li>
+                <li><a href="#">Our FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3 col-md-2 col-4">
+            <div class="my-4">
+              <h5>About</h5>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Achievments</a></li>
+                <li><a href="#">Our Goals</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="mt-4">
+              <h5>Social Profiles</h5>
+              <div class="footer_icons_box d-flex gap-3 my-3">
+                <div class="footer-icon d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="footer-icon d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="footer-icon d-flex justify-content-center align-items-center">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="text-center "><p class="lastP">© 2023 Skillbridge. All rights reserved.</p></div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    <!-- CODE ENDS HERE -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
