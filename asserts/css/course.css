@@ -65,7 +65,6 @@
 .course_detail_box {
     padding: 8px 12px;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
     align-items: center;
     gap: 20px;
 }
@@ -76,7 +75,6 @@
     display: flex;
     flex-direction: column;
     width: 20%;
-    /* border-right: 1px solid #f7f7f7; */
 }
 
 .detailBox:not(:last-child)::after {
@@ -123,7 +121,6 @@
 
 .courses_page_content {
     background-color: white;
-    /* min-height: 225px; */
     padding: 15px 25px;
     border-radius: 6px;
 }
@@ -193,7 +190,6 @@
 }
 
 .about_box {
-    /* background-color: white !important; */
     position: relative;
     padding: 8px;
     z-index: 999;
@@ -284,7 +280,6 @@ form textarea:focus {
     align-items: center;
     border-radius: 6px;
     border-radius: 6px;
-    /* color: var(--primary-color); */
     border: 1px solid #f7f7f7;
     background-color: #f7f7f7;
     transition: .5s;
@@ -315,26 +310,26 @@ form textarea:focus {
 }
 
 /* SECTION LOGIN OR SIGNUP */
-.container_login {
-    min-height: 388px;
+.owl-carousel.owl-drag .owl-item {
+    padding: 0 !important;
 }
 
-.slide {
-  width: 638px;
-  overflow: hidden;
+.testimonial {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.cards_slider {
-  display: flex;
-  transition: transform 0.5s ease; /* for smooth sliding */
-  flex-wrap: nowrap; /* important: keeps slides in a single row */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 42% !important;
+    margin-right: 8px;
 }
 
-.testimonial_slide {
-  /* width: 638px; ensures each slide takes full width */
-  max-width: 638px; /* ensures each slide takes full width */
-  flex-shrink: 0;   /* prevents shrinking or overlap */
-  box-sizing: border-box;
+.login-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.11);
 }
 
 .cards_button_box {
@@ -348,7 +343,7 @@ form textarea:focus {
     transition: .5s;
 }
 
-.cards_button_box:hover{
+.cards_button_box:hover {
     color: var(--primary-color);
     background-color: #f4f3f3 !important;
 }
@@ -390,6 +385,10 @@ form textarea:focus {
     box-shadow: 1px 6px 10px rgba(0, 0, 0, 0.11) !important;
 }
 
+form button {
+    width: 100% !important;
+}
+
 .seprator .or {
     color: #bdbdbd;
 }
@@ -404,47 +403,51 @@ form textarea:focus {
     background-color: #fcfcfc !important;
     border: 2px solid #f7f7f7 !important;
 }
+
 .google:hover {
     background-color: #f4f3f3 !important;
     border: 2px solid #f4f3f3 !important;
 }
 
-.google img{
+.google img {
     width: 7%;
     margin-right: 10px;
 }
 
-.lastLine{
+.lastLine {
     font-size: 13px;
     margin-bottom: 0 !important;
 }
-.lastLine a{
+
+.lastLine a {
     color: black;
     margin-left: 3px;
 }
 
-.lastLine a img{
+.lastLine a img {
     width: 10px;
     margin-left: 4px;
     margin-bottom: 4px;
     object-fit: cover;
 }
-.eye_icon{
+
+.eye_icon {
     position: relative;
 }
 
 .eye_icon i {
     position: absolute;
-    top: 45px;
+    top: 50px;
     right: 25px;
 }
 
-.privacy_policy{
+.privacy_policy {
     color: #656567;
     margin: 0 4px;
     font-size: 13px;
 }
-.privacy_policy:hover{
+
+.privacy_policy:hover {
     color: #494949;
     font-weight: 450;
 }

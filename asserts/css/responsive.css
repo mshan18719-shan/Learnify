@@ -3,14 +3,9 @@
         width: 44%;
     }
 
-    /* .about_img {
-        position: absolute;
-        margin-top: -48px;
-        margin-right: 125px;
-        margin-left: 29rem;
-        width: 38%;
-        z-index: 1;
-    } */
+    .login-box {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:992px) {
@@ -82,10 +77,6 @@
         padding-left: 2px;
     }
 
-    /* .profile_btn_box {
-        width: 44%;
-    } */
-
     .pricing_detail {
         padding: 1rem !important;
     }
@@ -125,20 +116,13 @@
         transform: translateY(-45%);
     }
 
-    /* .about_img {
-        top: 149px;
-        right: -46px;
-        width: 39%;
-    } */
-
-
-    .courses_top_content{
-        justify-content: space-between !important;
-    }
-    .courses_form_content{
+    .courses_top_content {
         justify-content: space-between !important;
     }
 
+    .courses_form_content {
+        justify-content: space-between !important;
+    }
 
 }
 
@@ -167,10 +151,6 @@
 
     .benefits_container .row {
         margin: .25rem 0 !important;
-    }
-
-    .testimonial {
-        margin: 10px 0;
     }
 
     .question_part {
@@ -220,7 +200,7 @@
         padding: 0 18px !important;
     }
 
-    .contact_detail_boxes{
+    .contact_detail_boxes {
         align-items: center !important;
     }
 
@@ -233,16 +213,24 @@
         transform: translateX(50%);
     }
 
-    .courses_form_content{
+    .courses_form_content {
         flex-direction: column-reverse;
     }
 
-    .login_form{
+    .login_form {
         justify-content: center !important;
         margin: 7px 0 3rem 0;
     }
 
+    .container_login_form {
+        flex-direction: column-reverse;
+    }
+
     .login_form_box {
+        width: 80%;
+    }
+
+    .login-box {
         width: 80%;
     }
 
@@ -263,6 +251,10 @@
 
     .image_box {
         padding: 0px 3px;
+    }
+
+    .login-box {
+        width: 95%;
     }
 }
 
@@ -359,10 +351,10 @@
 
     .courses_page_content {
         background-color: white;
-        /* min-height: 225px; */
         padding: 15px 10px;
         border-radius: 6px;
     }
+
     .login_form_box {
         width: 100%;
     }
@@ -388,7 +380,5 @@
     .course_tutor_name p {
         padding-left: 7px;
     }
-    .login_form_box {
-        width: 100%;
-    }
+
 }
