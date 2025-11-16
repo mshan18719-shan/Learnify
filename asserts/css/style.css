@@ -20,6 +20,11 @@ body {
     font-family: "Be Vietnam Pro", sans-serif;
 }
 
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 header {
     padding: 14px;
 }
